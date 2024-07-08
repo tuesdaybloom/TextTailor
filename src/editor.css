@@ -1,0 +1,55 @@
+/* src/Editor.css */
+
+  
+  .toolbar-class {
+    border: 1px solid #1f1c1c;
+  }
+  
+  .wrapper-class {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .editor-class {
+    box-shadow:brown;
+    height:44vh;
+  }
+  .rdw-option-wrapper {
+    border: 1px solid #394d5e !important;
+  }
+  .rdw-option-wrapper:hover {
+    background-color: rgb(184, 181, 181) !important;}
+  
+.toggle-label {
+    display: inline-block;
+    cursor: pointer;
+    width: 2.6rem; /* Adjust width as needed */
+    height: 1.2rem; /* Adjust height as needed */
+    border-radius: 1rem; /* Adjust border radius to make it round */
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button {
+    display: block;
+    position: absolute;
+    width: 1.2rem; /* Adjust width of the toggle button */
+    height: 1.2rem; /* Adjust height of the toggle button */
+    border-radius: 50%; /* Makes the button round */
+    background-color: white; /* Initial color of the toggle button */
+    transform: translateX(0.2rem); /* Adjust position of the toggle button */
+    transition: transform 0.2s ease;
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .toggle-button {
+    transform: translateX(1.3rem); /* Moves the toggle button to the "on" position */
+  }
+  
+  /* Example colors for the toggle switch */
+  .bg-blue-600 {
+    background-color: #2563eb; /* Tailwind's blue-600 */
+  }
+  
+  .bg-gray-400 {
+    background-color: #cbd5e0; /* Tailwind's gray-400 */
+  }
+  
