@@ -17,6 +17,7 @@ export default function Navbar(props) {
 
         <nav className={`container-none ${props.mode === 'light' ? 'bg-gray-50' : 'bg-slate-800'} sticky ${props.mode === 'light' ? 'text-slate-800' : 'text-gray-50'} p-2`}>
             <div className="container-none flex flex-row justify-between md:mx-7 mx-3 py-2">
+            
                 <p className="md:font-semibold md:text-3xl">{props.title}</p>
                 <div className="md:flex hidden flex-row my-2 md:my-0 ">
                     <Theme cmode={props.mode} />

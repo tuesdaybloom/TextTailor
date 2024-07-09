@@ -101,7 +101,7 @@ const TextEditor = (props) => {
     </div>
     <div className={`${props.cmode==='light'?'text-black':'text-white'} my-5`}>
     <h3 >Your Text Summary</h3>
-    <hr/>
+    <hr className='border-black'/>
     <p>
       {wordCount(editorState)} Words | {characterCount(editorState)} Characters | {sentenceCount(editorState)} Sentences | {linesCount(editorState)} Lines
     </p>

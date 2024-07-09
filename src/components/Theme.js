@@ -6,9 +6,9 @@ function Theme(props) {
   }
 
   return (
-    <div className={`px-1  rounded-full ${props.cmode === 'dark' ? 'bg-white' : 'bg-[#0c2864ef]'}`}>
+    <div className={` rounded-full ${props.cmode === 'dark' ? 'bg-white' : 'bg-[#0c2864ef]'}`}>
       {props.cmode === 'dark' ? (
-        <div className="m-1 rounded-full">
+        <div className="m-1  rounded-full">
           <button className="mx-1 rounded-sm bg-[#6e121294] w-6 h-3" onClick={() => changeColor('#6e121294')}></button>
           <button className="mx-1 rounded-sm bg-[#0c4464ef] w-6 h-3" onClick={() => changeColor('#0c4464ef')}></button>
           <button className="mx-1 rounded-sm bg-[goldenrod] w-6 h-3" onClick={() => changeColor('#cec32eef')}></button>
