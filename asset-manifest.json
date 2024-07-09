@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/textTailor/static/css/main.1644e1ed.css",
+    "main.js": "/textTailor/static/js/main.6e619b27.js",
+    "index.html": "/textTailor/index.html",
+    "main.1644e1ed.css.map": "/textTailor/static/css/main.1644e1ed.css.map",
+    "main.6e619b27.js.map": "/textTailor/static/js/main.6e619b27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1644e1ed.css",
+    "static/js/main.6e619b27.js"
+  ]
+}
